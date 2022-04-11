@@ -28,6 +28,7 @@ class ArrayLibrary {
         }
         return newArray
     }
+
     reverse(array) {
         for (let i = 0; i < array.length / 2; i++) {
             console.log(array[i])
@@ -39,6 +40,7 @@ class ArrayLibrary {
         }
         return array
     }
+
     skip(array, n) {
         this.checkArray(array)
         this.checkNumberOfElements(n)
@@ -82,6 +84,8 @@ class ArrayLibrary {
             callback(array[i], i, array)
         }
     }
+
+    reduce(array, callback, initialValue)
 }
 
 const arrClass = new ArrayLibrary()
