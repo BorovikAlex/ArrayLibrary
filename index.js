@@ -140,7 +140,7 @@ class ArrayLibrary {
 }
 
 const arrClass = new ArrayLibrary()
-const res = arrClass.chain([10, 20, 30, 40, 50]).take(3).reduce((accumulator, element) => accumulator + element, 0).value();
-console.log(res)
-const res1 = arrClass.chain([10, 20, 30, 40, 50]).take(4).map(a => a - 1).value();
-console.log(res1)
+// const res = arrClass.chain([10, 20, 30, 40, 50]).take(3).reduce((accumulator, element) => accumulator + element, 0).value();
+// console.log(res)
+// const res1 = arrClass.chain([10, 20, 30, 40, 50]).take(4).map(a => a - 1).value();
+// console.log(res1)
